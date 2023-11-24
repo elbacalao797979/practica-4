@@ -1,9 +1,9 @@
 # practica-4
-Entrega
+**Entrega**
 
 ● La entrega la realizaremos a través del repositorio Git.
 
-Script
+**Script**
 
 ● Al comenzar el script se debe comprobar si el usuario que lo ejecuta es root.
 En caso contrario se mostrara un mensaje y se finaliza el script.
