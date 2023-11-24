@@ -4,20 +4,30 @@ Entrega
 ● La entrega la realizaremos a través del repositorio Git.
 
 Script
+
 ● Al comenzar el script se debe comprobar si el usuario que lo ejecuta es root.
 En caso contrario se mostrara un mensaje y se finaliza el script.
+
 ● Los datos de entrada al script estarán en un fichero “paquetes.txt”, con el
 formato PACKAGENAME:ACTION.
+
 ● El script deberá leer el contenido del fichero de entrada “paquetes.txt”,
 donde vendrán definidos los nombres de los paquetes. Deberá cargarlos en
 un array para luego procesarlos.
+
 ● Para cada elemento del array deberemos ejecutar los comandos necesarios
 para actuar sobre cada paquete en un sistema GNU/Linux.
+
 ○ Si ACTION es remove o r, entonces desinstalar el software.
+
 ■ sudo apt remove apache2
+
 ■ sudo apt purge apache2
+
 ○ Si ACTION es install o i, entonces instalar el software.
+
 ■ sudo apt install apache2
+
 ○ Si ACTION es status o s, entonces mostrar un mensaje (instalado o no
 instalado).
 
