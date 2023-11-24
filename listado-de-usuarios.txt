@@ -1,0 +1,8 @@
+pepe:piratas
+adrian:pescadores
+samuel:vaganos
+alba:piratas
+javier:vaganos
+sandra:piratas
+maria:vaganos
+xeila:pescadores
